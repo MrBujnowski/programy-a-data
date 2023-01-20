@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programové a datové soubory</title>
+<link rel="stylesheet" href="../css/stylea.css">
+</head>
+<body>
+  <header>
+    <h1>Programové a datové soubory</h1>
+  </header>
+  <main>
+    <h2>Soubory a adresáře</h2>
+    <p>Soubor (file) je množina souvisejících dat uložených na diskové jednotce. Název souboru je obvykle tvořen jménem (ve Windows až 254 
+      znaků) a příponou, která naznačuje typ souboru. K dalším vlastnostem souboru patří jeho velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová práva apod. </p>
+    <p>K přehlednější práci se soubory slouží systém adresářů či složek (directories, folders). Adresáře tvoří na disku typicky hierarchickou strukturu (tree - strom); základem je tzv. kořenový adresář (root) označený 
+      symbolem „/“ (Unix, Linux), nebo „\“ (Windows). Každý adresář může 
+      obsahovat soubory i podadresáře (subdirectories). </p>
+      <h3>Cesta k souboru</h3>
+<p>Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: C:\XAMPP\mysql\bin\mysql.exe. Pro operace se soubory využíváme někdy 
+  zástupné znaky (wildcards):
+  <ul>
+    <li>symbol * nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
+    <li>symbol ? nahrazuje jeden libovolný znak (např. s?s.txt).</li>
+  </ul>
+  <h3>Programové soubory</h3>
+  <p>
+    Programové soubory obsahují instrukce, podle nichž procesor ve 
+spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy. 
+Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve 
+strojovém kódu pro danou platformu), nebo ve zdrojovém kódu, obsahujícím příkazy určitého programovacího jazyka. Mezi programové 
+soubory můžeme zařadit také skripty, soubory instrukcí v textové podobě, které ke svému spuštění vyžadují speciální program - interp
+  </p>
+  <h3>Programové Knihovny</h3>
+  <p>Větší programy jsou tvořeny programovými knihovnami (runtime libraries), 
+    speciálními soubory s připravenými funkcemi, které programy využívají pro 
+    svůj běh. Ve Windows to jsou např. soubory DRV a SYS (obsahující zejména 
+    ovladače čili drivery, ale i systémové funkce), nebo také DLL (dynamic linking 
+    library - dynamicky linkované knihovny), které mohou být podle potřeby za 
+    běhu (dynamicky) připojeny k jednomu i více programům. </p>
+    <figure>
+      <img src="../images/dll.png" alt="" width="500">
+    </figure>
+<h3>Datové soubory</h3>
+<p>Datové soubory obsahují data různého charakteru (číselné, textové, 
+  grafické, zvukové údaje). K jejich zpracování se používají konkrétní 
+  programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací (např. DOCX s programem MS 
+  Word, nebo XLSX s programem MS Excel). </p>
+
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2022 - Autor: <i>Tonda</i>, <b>IT1</b> &reg;</p>
+  </footer>
+</body>
+</html>
